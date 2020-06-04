@@ -1,22 +1,23 @@
-import java.util.Scanner;
-
 public class Array {
 
 	public static void main(String[] args) {
-
-		Scanner s = new Scanner(System.in);
-		int aa[] = new int[4];
-		int i;
-		int hap = 0;
 		
-		for(i = 0; i < aa.length; i++) {
-			System.out.printf("%d번째 숫자를 입력하세요 : ", i + 1);
-			aa[i] = s.nextInt();
-			
-			hap = hap + aa[i];
+		int i;
+		int val = 11, hap = 0;
+		int[] num = new int[90];
+		
+		for(i = 0; i < num.length; i++) {
+			num[i] = val;
+			val ++;
+			hap += num[i];
 		}
 		
-		System.out.println("합계 ==> " + hap);
+		i = 0;
+		while(i < num.length) {
+			System.out.println("num[" + i + "]" + " = " + num[i]);
+			i++;
+		}
+		
+		System.out.println("합 = " + hap);
 	}
-
 }
