@@ -3,12 +3,11 @@ public class Array {
 	public static void main(String[] args) {
 		
 		int i;
-		int val = 11, hap = 0;
+		int hap = 0;
 		int[] num = new int[90];
 		
 		for(i = 0; i < num.length; i++) {
-			num[i] = val;
-			val ++;
+			num[i] = i + 11;
 			hap += num[i];
 		}
 		
