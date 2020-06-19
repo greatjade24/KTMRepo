@@ -1,25 +1,24 @@
-import java.util.HashSet;
+import java.util.ArrayList;
 import java.util.Iterator;
-import java.util.Set;
+import java.util.List;
 
 public class EmptyPaper {
 
 	public static void main(String[] args) {
 		
-		Set<String> li = new HashSet<String>();
+		List<String> rList = new ArrayList<String>();
 		
-		li.add("°´Ã¼ÁöÇâ ÇÁ·Î±×·¡¹Ö");
-		li.add("ÇÏµÓ");
-		li.add("MongoDB");
+		rList.add("°´Ã¼ÁöÇâ ÇÁ·Î±×·¡¹Ö");
+		rList.add("ÇÏµÓ");
+		rList.add("MongoDB");
 		
 		int a = 1;
 		
-		Iterator<String> it = li.iterator();
+		Iterator<String> it = rList.iterator();
 		while(it.hasNext()) {
 			String st = it.next();
 			if(st.equals("ÇÏµÓ")) {
 				System.out.println("<" + st + ">");
-				break;
 			}
 			else
 				System.out.println(st);
