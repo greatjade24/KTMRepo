@@ -18,11 +18,11 @@ public class Star4 {
 			System.out.println();
 		}
 
-		for(i=0;i<6;i++) {
+		for(i=0;i<5;i++) {
 			for(k=0;k<=i;k++) {
 				System.out.printf(" ");
 			}
-			for(j=4;j>=i;j--) {
+			for(j=5;j>i;j--) {
 				System.out.printf("*");
 			}
 			
