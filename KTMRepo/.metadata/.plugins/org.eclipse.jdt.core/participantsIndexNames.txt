@@ -1,5 +1,0 @@
-INDEX VERSION 1.131
-C:\JavaWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2471444857.index
-\TMRepo\src
-C:\JavaWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\1689907835.index
-\KTMPrj\src
