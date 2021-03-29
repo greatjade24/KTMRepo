@@ -15,7 +15,10 @@
 		<item key="create_constructor" value="false"/>
 		<item key="create_unimplemented" value="true"/>
 	</section>
+<<<<<<< HEAD
 	<section name="BuildPathsPropertyPage">
 		<item key="pageIndex" value="3"/>
 	</section>
+=======
+>>>>>>> 2df94a6a1482e3c02f52570bbb708321f028d301
 </section>
