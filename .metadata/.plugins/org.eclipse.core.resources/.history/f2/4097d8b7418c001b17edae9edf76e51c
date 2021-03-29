@@ -1,0 +1,27 @@
+package Backjun;
+
+import java.util.Scanner;
+
+public class B2338 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		int a, b;
+		
+		while (true) {
+			a = sc.nextInt();
+			b = sc.nextInt();
+
+			if (Math.log10(a) + 1 > 1000 || Math.log10(b) + 1 > 1000) {
+				System.out.println("입력 길이 초과, 재입력");
+			}
+			
+			break;
+		}
+		
+		System.out.println(a+b);
+		
+	}
+}
