@@ -1,0 +1,26 @@
+package Backjun;
+
+import java.util.Scanner;
+
+public class B1550 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+
+		String num;
+		
+		while (true) {
+
+			num = sc.nextLine();
+
+			if (num.length() < 6) {
+				int res = Integer.valueOf(num, 16);
+				break;
+			}
+		}
+
+		System.out.printf("%d", Integer.parseInt(num));
+	}
+
+}

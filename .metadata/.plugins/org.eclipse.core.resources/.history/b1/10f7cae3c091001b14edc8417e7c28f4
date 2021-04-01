@@ -1,0 +1,20 @@
+package Backjun;
+
+import java.util.Scanner;
+
+public class B8437 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		int apple = sc.nextInt();
+		int dif = sc.nextInt();
+		double a, b;
+
+		if(apple % 2 != 0) {
+			a = (double)(apple/2) + 0.5; 
+		}
+	}
+
+}

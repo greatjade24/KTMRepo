@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="EUC-KR">
+<title>Insert title here</title>
+<link rel="stylesheet" href="jqcloud.css">
+<script src="jquery-3.6.0.min.js" charset="utf-8"></script>
+<script src="jqcloud.js" charset="utf-8"></script>
+
+<script>
+var words = [
+				{text: "Lorem", weight:13},
+				{text: "Ipsum", weight: 10.5}
+];
+
+$(function(){
+	$("keywords").jQCloud(words,{
+		width: 500,
+		height: 350
+	});
+});
+</script>
+</head>
+<body>
+<div id="keywords"></div>
+</body>
+</html>

@@ -1,0 +1,28 @@
+package Backjun;
+
+import java.math.BigInteger;
+import java.util.Scanner;
+
+public class B8437 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		BigInteger two = new BigInteger("2");
+		BigInteger apple = sc.nextBigInteger();
+		BigInteger dif = sc.nextBigInteger();
+		BigInteger a, b;
+
+		if(apple.remainder(two) != 0) {
+			a = (apple/2) + (dif / 2 + 1);
+			b = (apple/2) - (dif / 2);
+		}else {
+			a = apple/2 + dif/2;
+			b = apple/2 - dif/2;
+		}
+		
+		System.out.println(a + "\n" + b);
+	}
+
+}

@@ -1,0 +1,11 @@
+package Backjun;
+
+public class B5338 {
+
+	public static void main(String[] args) {
+
+		System.out.println("       _.-;;-.\n" +_"\'-..-\'|   ||   |\n" + "\'-..-\'|_.-;;-._|\n" + "\'-..-\'|   ||   |\n" 
+		+ "\'-..-\'|_.-''-._|");
+	}
+
+}

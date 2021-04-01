@@ -1,0 +1,26 @@
+package Backjun;
+
+import java.util.Scanner;
+
+public class B8437 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		int apple = sc.nextInt();
+		int dif = sc.nextInt();
+		double a, b;
+
+		if(apple % 2 != 0) {
+			a = (apple/2) + (dif / 2 + 1);
+			b = (apple/2) - (dif / 2);
+		}else {
+			a = apple/2 + dif/2;
+			b = apple/2 - dif/2;
+		}
+		
+		System.out.println((int)a + "\n" + (int)b);
+	}
+
+}
