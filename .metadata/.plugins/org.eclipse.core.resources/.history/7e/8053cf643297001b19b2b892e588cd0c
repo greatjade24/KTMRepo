@@ -1,0 +1,35 @@
+package Programmers;
+
+import java.util.HashSet;
+import java.util.Scanner;
+
+public class P01 {
+
+	public static void main(String[] args) {
+
+		HashSet<Integer> set = new HashSet<Integer>();
+		
+		Scanner sc = new Scanner(System.in);
+		
+		int[] num = new int[100];
+		
+		int[] res = new int[10000];
+		
+		int a = sc.nextInt();
+		
+		for(int i = 0; i < a; i++) {
+			num[i] = sc.nextInt();
+		}
+		
+		for(int i = 0; i < a; i++) {
+			for(int j = 0; j < a; j++) {
+				set.add(num[i] + num[j]);
+			}
+		}
+		
+		for(int i = 0; i < set.size(); i++) {
+			
+		}
+	}
+
+}
