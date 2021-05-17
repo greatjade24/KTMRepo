@@ -1,0 +1,19 @@
+package BackJoon;
+
+import java.util.Scanner;
+
+public class B16430 {
+
+	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		
+		double a = sc.nextInt();
+		double b = sc.nextInt();
+		
+		double res = 1 * (a / b);
+		
+		System.out.println(res);
+	}
+
+}

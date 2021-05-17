@@ -1,0 +1,12 @@
+package BackJoon;
+
+import java.util.Scanner;
+
+public class B15727 {
+
+	public static void main(String[] args) {
+
+System.out.println("I'm Sexy");
+
+}
+}
