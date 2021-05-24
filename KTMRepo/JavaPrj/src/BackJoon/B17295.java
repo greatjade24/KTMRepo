@@ -2,18 +2,17 @@ package BackJoon;
 
 import java.util.Scanner;
 
-public class B16430 {
+public class B17295 {
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		
-		int a = sc.nextInt();
-		int b = sc.nextInt();
+		String str = sc.nextLine();
 		
-		int res = 1 * (a / b);
+		System.out.println("Avengers: Endgame");
 		
-		System.out.println(res);
+		sc.close();
 	}
 
 }
