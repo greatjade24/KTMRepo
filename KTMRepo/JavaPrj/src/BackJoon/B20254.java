@@ -2,18 +2,18 @@ package BackJoon;
 
 import java.util.Scanner;
 
-public class B17496 {
+public class B20254 {
 
 	public static void main(String[] args) {
 
 		Scanner sc = new Scanner(System.in);
 		
-		int n = sc.nextInt();
-		int t = sc.nextInt();
-		int c = sc.nextInt();
-		int p = sc.nextInt();
+		int ur = sc.nextInt();
+		int tr = sc.nextInt();
+		int uo = sc.nextInt();
+		int to = sc.nextInt();
 		
-		int res = (n / t) * c * p;
+		int res = 56*ur + 24*tr + 14*uo + 6*to;
 		
 		System.out.println(res);
 	}
