@@ -1,3 +1,0 @@
-INDEX VERSION 1.131
-C:\JavaWorkSpace\.metadata\.plugins\org.eclipse.jst.jsp.core\jspsearch\2147320489.index
-\JavaPrj\src
