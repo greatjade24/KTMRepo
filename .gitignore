@@ -121,8 +121,8 @@ $RECYCLE.BIN/
 
 .metadata/
 
-JavaPrj/.classpath
-JavaPrj/.gitignore
-JavaPrj/.project
+KTMRepo/JavaPrj/.classpath
+KTMRepo/JavaPrj/.gitignore
+KTMRepo/JavaPrj/.project
 
 # End of https://www.toptal.com/developers/gitignore/api/windows,java,eclipse
